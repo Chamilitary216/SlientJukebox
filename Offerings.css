@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: auto;
+    width: 88%;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-shadow: 2px 4px 2px rgba(185, 68, 0, 1);
+    
+    
+}
+
+/* body {
+    background-image: url("images/alexander-popov-3-Kh6XSu9XQ-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+} */
+
+.wrapper {
+    font-family: 'Baloo Tammudu 2', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fafafa;
+
+    
+}
+
+.wrapper h1 {
+    font-size: 3em;
+    margin: 25px 0;
+    text-align: center;
+    font-weight: 600;
+    color: rgba(255, 0, 195, 0.8);
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.card {
+    min-height: 220px;
+    width: 320px;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    margin: 10px 4px;
+    box-shadow: 0px 15px 30px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card i{
+    margin: 20px;
+    color: aquamarine;
+}
+
+.card h2 {
+    margin-bottom: 12px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.card p {
+    color: #6c757d;
+    text-align: center;
+}
+
+.card:hover{
+
+}
+
+.card:hover i,
+.card:hover p{
+    color: #fff;
+}
+.card:hover h2 {
+    font-weight: 600;
+    color: #f2f2f2;
+}
+.card:nth-child(1):hover{
+    background:linear-gradient(45deg,
+                                rgba(8, 239, 255, 0.8) 0%,
+                                rgba(255, 0, 195, 0.8) 100%),
+                                url("images/movie.jpg");
+    background-size: cover;
+                                
+}
+
+.card:nth-child(2):hover{
+    background:linear-gradient(45deg,
+                                rgba(8, 239, 255, 0.8) 0%,
+                                rgba(255, 0, 195, 0.8) 100%),
+                                url("images/disco.jpg");
+    background-size: cover;
+                                
+}
+
+.card:nth-child(3):hover{
+    background:linear-gradient(45deg,
+                                rgba(8, 239, 255, 0.8) 0%,
+                                rgba(255, 0, 195, 0.8) 100%),
+                                url("images/party.jpg");
+    background-size: cover;
+                                
+}
+
+
+
+
+
+@media (max-width: 991px){
+    .wrapper {
+        padding: 25px;
+    }
+
+    .wrapper h1 {
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+
+    .content-box {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card {
+        min-width: 300px;
+        margin: 10px auto;
+    }
+}
