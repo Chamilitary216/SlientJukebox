@@ -104,7 +104,6 @@ nav {
     background: #fff;
     width: 12%;
     padding: 7px 20px;
-    cursor: pointer;
 }
 
 .content h1 {
@@ -144,7 +143,7 @@ nav {
     
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 768px) {
 
     .line {
         width: 30px;
@@ -167,7 +166,7 @@ nav {
 
     .nav-links {
         position: fixed;
-        background: #710096;
+        background: #5b78c7;
         height: 100vh;
         width:100%;
         flex-direction: column;
@@ -180,29 +179,5 @@ nav {
         clip-path: circle(1000px at 90% -10%);
         -webkit-clip-path: circle(1000px at 90% -10%);
 
-    }
-
-    .content {
-        top: 30%;
-    }
-
-    .content p {
-        letter-spacing: 1px;
-        font-size: 12px;
-        padding-bottom: 15px;
-
-    }
-
-    .content h1 {
-        font-size: 2em;
-        word-spacing: 5px;
-        letter-spacing: 5px;
-        padding-bottom: 20px;
-    }
-
-    .content h6 {
-        font-size: 10px;
-        letter-spacing: 0.5px;
-        width: 25%;
     }
 }
