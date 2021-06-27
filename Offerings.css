@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+
 /* Nav Styles */
 
 nav {
@@ -93,12 +95,13 @@ nav {
 } */
 
 .wrapper {
-    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background: #fafafa;
+    
 
     
 }
@@ -109,6 +112,7 @@ nav {
     text-align: center;
     font-weight: 600;
     color: rgba(255, 0, 195, 0.8);
+    
 }
 
 .content-box {
